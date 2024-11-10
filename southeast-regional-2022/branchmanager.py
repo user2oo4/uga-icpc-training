@@ -1,7 +1,7 @@
 n, m = map(int, input().split())
 
 
-def postDfs(postOrder, graph, minChildren):
+def dfs(postOrder, graph, minChildren):
     counter = 0
     stack = [1]
     tempStack = []
@@ -44,15 +44,14 @@ def main():
     for u in graph:
         graph[u].sort()
 
-    postDfs(postOrder, graph, minChildren)
+    dfs(postOrder, graph, minChildren)
 
     cnt = 0
     for _ in range(m):
         node = int(input())
         if postOrder[node] < block:
-            break
+            return cnt
 
-        # in case minChild has been blocked off
         block = max(minChildren[node], block)
         cnt += 1
 
