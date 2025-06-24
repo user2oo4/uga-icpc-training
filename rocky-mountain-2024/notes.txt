@@ -1,0 +1,26 @@
+- 2 hours and 46 minutes session today.
+- 8 problems (not bad)
+Submissions:
+- A: easy
+(1 try, 3 minutes)
+- D: string parsing 
+(3 tries, 21-26-26 minutes) (stupid mistake (var name mixing up))
+- L: easy difference array
+(2 tries, 31-32 minutes) (stupid mistake again, forgot 0)
+- F: brute force, string 
+(1 try, 49 minutes)
+- H: idk what type, basically brute force but a bit annoying implementation (mistake avoidable test n = 1)
+(2 tries, 1h21-1h30)
+- C: tree, binary search, greedy (runtime error, stupid ass mistakes)
+(3 tries, 1h54-1h56-1h57)
+- J: 2d plain, a bit of geometry (uhmm, use < instead of <=, 2 times in a row lol)
+(3 tries, 2h14-2h17-2h18)
+- K: dfs, greedy
+(1 try, 2h46)
+
+Ranked 5 after last submission, 2 problems less than Mines and BYU (World Finals this year)
+
+- Overall, need to cut down on dumb mistakes 
+- Always run some edge cases before submitting
+- Read the code again to make sure everything is right (< vs <= is not acceptable)
+- variable naming needs to be a bit better (don't reuse var names)
